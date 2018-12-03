@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#501214"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="50dp"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:paddingTop="20dp"
+            android:text="Info:"
+            android:textColor="#8d734a"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="489dp"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="An Android restaurant ordering app allows the user to check various categories of foods available in the restaurant and place orders. This system provides a categorized list of food products. After installing this application, the user have to login into the system and can start placing an order. If they like any product they can add to cart and purchase the products once they stop surfing for more. Users can make payment with secure online payment via credit card. After the payment is successful, the user receives a conformation of payment email. This application makes it easy for the restaurant owner and the customer to make easy to buy products. The products in the application will be the products that are stored in the database. This application is very easy to use and helps the customer to buy product at the user’s convenience."
+            android:textColor="#8d734a"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
